@@ -1,9 +1,9 @@
 ## Onkyo HF Player/ Play/Pause Toggle Action
 https://play.google.com/store/apps/details?id=com.onkyo.jp.musicplayer
 
-```
+'
 autoset://start/service?intent={"action":"com.onkyo.jp.musicplayer.MusicPlayerService.ACTION_PLAY_TOGGLE","packageName":"com.onkyo.jp.musicplayer","className":"com.onkyo.jp.musicplayer.service.MusicPlayerService"}
-```
+'
 
 
 ## Blackplayer EX Play Action
