@@ -13,6 +13,7 @@ Pause Action
 ----------
 
 Onkyo HF Player
+-------------
 https://play.google.com/store/apps/details?id=com.onkyo.jp.musicplayer
 
 Play/Pause Toggle Action
@@ -23,6 +24,7 @@ Play/Pause Toggle Action
 ----------
 
 Blackplayer EX
+-------------
 https://play.google.com/store/apps/details?id=com.kodarkooperativet.blackplayerex
 
 Play Action
@@ -31,7 +33,8 @@ Play Action
 
 ----------
 
-Melon 
+Melon
+-------------
 https://play.google.com/store/apps/details?id=com.iloen.melon
 
 Play/Pause Toggle Action
@@ -41,6 +44,7 @@ Play/Pause Toggle Action
 ----------
 
 Bugs Music
+-------------
 https://play.google.com/store/apps/details?id=com.neowiz.android.bugs
 
 Play Action
@@ -50,6 +54,7 @@ Play Action
 ----------
 
 Adguard
+-------------
 https://adguard.com/en/adguard-android
 
 Start Action
