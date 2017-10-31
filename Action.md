@@ -1,11 +1,11 @@
 ## Poweramp
 https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer
 
-#### Play
+#### Play Action
 
 autoset://start/service?intent={"action":"com.maxmpz.audioplayer.API_COMMAND","packageName":"com.maxmpz.audioplayer","className":"com.maxmpz.audioplayer.player.PlayerService","ekey1":"cmd","etype1":"i","evalue1":"1"}
 
-#### Pause
+#### Pause Action
 
 autoset://start/service?intent={"action":"com.maxmpz.audioplayer.API_COMMAND","packageName":"com.maxmpz.audioplayer","className":"com.maxmpz.audioplayer.player.PlayerService","ekey1":"cmd","etype1":"i","evalue1":"1"}
 
@@ -49,14 +49,14 @@ autoset://start/service?intent={"action":"com.neowiz.android.bugs.musicserviceco
 
 
 
-## Adguard Start/Stop Action
+## Adguard
 https://adguard.com/en/adguard-android
 
-#### Start
+#### Start Action
 
 autoset://start/service?intent={"action":"android.intent.action.SEND","packageName":"com.adguard.android","className":"com.adguard.android.ServiceManager","ekey1":"ACTION","etype1":"i","evalue1":"2"}
 
-#### Stop
+#### Stop Action
 
 autoset://start/service?intent={"action":"android.intent.action.SEND","packageName":"com.adguard.android","className":"com.adguard.android.ServiceManager","ekey1":"ACTION","etype1":"i","evalue1":"4"}
 
