@@ -3,6 +3,8 @@ autoset://start/service?intent={"action":"com.onkyo.jp.musicplayer.MusicPlayerSe
 
 
 ## Blackplayer EX Play Action
+https://play.google.com/store/apps/details?id=com.kodarkooperativet.blackplayerex
+
 autoset://start/service?intent={"ekey1":"remote_action","etype1":"i", "evalue1":"22","packageName":"com.kodarkooperativet.blackplayerex","className":"com.kodarkooperativet.blackplayerex.MusicService"}
 
 
@@ -23,6 +25,11 @@ autoset://start/service?intent={"action":"android.intent.action.SEND","packageNa
 
 #### Stop
 autoset://start/service?intent={"action":"android.intent.action.SEND","packageName":"com.adguard.android","className":"com.adguard.android.ServiceManager","ekey1":"ACTION","etype1":"i","evalue1":"4"}
+
+## Melon Play/Pause Toggle Action
+autoset://start/service?intent={"action":"com.iloen.melon.intent.action.commandservice.add","packageName":"com.iloen.melon","className":"com.iloen.melon.playback.CommandService","data":"melonapp://service=nowplaylist"}
+
+
 
 
 
