@@ -1,4 +1,4 @@
-## Onkyo HF Player Play/Pause Toggle 
+## Onkyo HF Player Play/Pause Toggle Action
 autoset://start/service?intent={"action":"com.onkyo.jp.musicplayer.MusicPlayerService.ACTION_PLAY_TOGGLE","packageName":"com.onkyo.jp.musicplayer","className":"com.onkyo.jp.musicplayer.service.MusicPlayerService"}
 
 
