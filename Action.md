@@ -59,11 +59,14 @@ https://adguard.com/en/adguard-android
 
 Start Action
 
->autoset://start/service?intent={"action":"android.intent.action.SEND","packageName":"com.adguard.android","className":"com.adguard.android.ServiceManager","ekey1":"ACTION","etype1":"i","evalue1":"2"}
+>autoset://start/service?intent={"action":"start","packageName":"com.adguard.android","className":"com.adguard.android.receivers.AutomationReceiver"}
 
 Stop Action
 
->autoset://start/service?intent={"action":"android.intent.action.SEND","packageName":"com.adguard.android","className":"com.adguard.android.ServiceManager","ekey1":"ACTION","etype1":"i","evalue1":"4"}
+>autoset://start/service?intent={"action":"stop","packageName":"com.adguard.android","className":"com.adguard.android.receivers.AutomationReceiver"}
+
+if Password Setting:
+autoset://start/service?intent={"action":"start","packageName":"com.adguard.android","className":"com.adguard.android.receivers.AutomationReceiver","ekey1":"password","etype1":"s","evalue1":"yourpassword"}
 
 
 
