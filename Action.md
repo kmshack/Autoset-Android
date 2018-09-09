@@ -66,7 +66,7 @@ Stop Action
 >autoset://start/service?intent={"action":"stop","packageName":"com.adguard.android","className":"com.adguard.android.receivers.AutomationReceiver"}
 
 if Password Setting:
-autoset://start/service?intent={"action":"start","packageName":"com.adguard.android","className":"com.adguard.android.receivers.AutomationReceiver","ekey1":"password","etype1":"s","evalue1":"yourpassword"}
+>autoset://start/service?intent={"action":"start","packageName":"com.adguard.android","className":"com.adguard.android.receivers.AutomationReceiver","ekey1":"password","etype1":"s","evalue1":"yourpassword"}
 
 
 
