@@ -59,14 +59,24 @@ https://adguard.com/en/adguard-android
 
 Start Action
 
->autoset://start/broadcast?intent={"action":"start","packageName":"com.adguard.android","className":"com.adguard.android.receivers.AutomationReceiver"}
+>>autoset://start/service?intent={"action":"android.intent.action.SEND","packageName":"com.adguard.android","className":"com.adguard.android.ServiceManager","ekey1":"ACTION","etype1":"i","evalue1":"2"}
 
 Stop Action
 
->autoset://start/broadcast?intent={"action":"stop","packageName":"com.adguard.android","className":"com.adguard.android.receivers.AutomationReceiver"}
-
-if Password Setting:
->autoset://start/broadcast?intent={"action":"start","packageName":"com.adguard.android","className":"com.adguard.android.receivers.AutomationReceiver","ekey1":"password","etype1":"s","evalue1":"yourpassword"}
+>>autoset://start/service?intent={"action":"android.intent.action.SEND","packageName":"com.adguard.android","className":"com.adguard.android.ServiceManager","ekey1":"ACTION","etype1":"i","evalue1":"4"}
 
 
+----------
+
+Adguard - new version Automation function
+-------------
+https://adguard.com/en/adguard-android
+
+Start Action
+
+>autoset://start/broadcast?intent={"action":"start","packageName":"com.adguard.android","className":"com.adguard.android.receivers.AutomationReceiver","ekey1":"password","etype1":"s","evalue1":"Your PIN code"}
+
+Stop Action
+
+>autoset://start/broadcast?intent={"action":"stop","packageName":"com.adguard.android","className":"com.adguard.android.receivers.AutomationReceiver","ekey1":"password","etype1":"s","evalue1":"Your PIN code"}
 
