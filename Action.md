@@ -78,3 +78,25 @@ https://play.google.com/store/apps/details?id=com.neowiz.android.bugs
 Play Action
 
 >autoset://start/service?intent={"action":"com.neowiz.android.bugs.musicservicecommand.play","packageName":"com.neowiz.android.bugs","className":"com.neowiz.android.bugs.service.MusicService"}
+
+
+
+
+Pulsar Music Player
+-------------
+https://play.google.com/store/apps/details?id=com.rhmsoft.pulsar
+
+Play Action
+
+>autoset://start/service?intent={"action":"com.rhmsoft.play.cmd","packageName":"com.rhmsoft.pulsar","className":"com.rhmsoft.play.music.MusicService","ekey1":"command","etype1":"s","evalue1":"play"}
+
+Pause Action
+
+>autoset://start/service?intent={"action":"com.rhmsoft.play.cmd","packageName":"com.rhmsoft.pulsar","className":"com.rhmsoft.play.music.MusicService","ekey1":"command","etype1":"s","evalue1":"pause"}
+
+
+
+Play/Pause Toggle Action
+
+>autoset://start/service?intent={"action":"com.rhmsoft.play.cmd","packageName":"com.rhmsoft.pulsar","className":"com.rhmsoft.play.music.MusicService","ekey1":"command","etype1":"s","evalue1":"play_pause"}
+
