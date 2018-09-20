@@ -79,8 +79,7 @@ Play Action
 
 >autoset://start/service?intent={"action":"com.neowiz.android.bugs.musicservicecommand.play","packageName":"com.neowiz.android.bugs","className":"com.neowiz.android.bugs.service.MusicService"}
 
-
-
+----------
 
 Pulsar Music Player
 -------------
@@ -93,8 +92,6 @@ Play Action
 Pause Action
 
 >autoset://start/service?intent={"action":"com.rhmsoft.play.cmd","packageName":"com.rhmsoft.pulsar","className":"com.rhmsoft.play.music.MusicService","ekey1":"command","etype1":"s","evalue1":"pause"}
-
-
 
 Play/Pause Toggle Action
 
